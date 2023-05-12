@@ -41,6 +41,7 @@ void calc_PowerOf2(int array[], int n)
 
 	for (int i = 1; i < n; i++)
 	{
+		// Calculate current element twice as previous 
 		array[i] = array[i-1] * 2;	
 	}
 }
